@@ -73,3 +73,47 @@ body {
     height: 24px;
     outline: 0;
 }
+
+.top2 {
+    height: 95px;
+    color: #000;
+}
+
+.intop2 {
+    width: 100%;
+    max-width: 1040px;
+    height: 95px;
+    margin: auto;
+}
+
+.logo {
+    width: 230px;
+    height: 95px;
+    float: left; 
+}
+
+.logo h1 {
+    color: #F00;
+    font-family: serif; 
+    font-size: 42px;
+    line-height: 95px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+}
+
+.top2 .banner {
+    width: 650px;
+    height: 80px;
+    float: right; 
+    margin: 7.5px 0;
+    background: linear-gradient(to right, #F00, #C00);
+}
+
+.top2 .banner p {
+    text-align: center;
+    line-height: 80px;
+    color: #FFF;
+    font-size: 32px;
+    font-weight: bold;
+}
+
