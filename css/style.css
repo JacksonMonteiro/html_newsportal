@@ -117,3 +117,60 @@ body {
     font-weight: bold;
 }
 
+.menu {
+    height: 40px;
+    background: #F00;
+}
+
+.inmenu {
+    width: 100%;
+    max-width: 1040px;
+    height: 40px;
+    margin: auto;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu li {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 8px;
+}
+
+.menu li:hover {
+    background: #C00;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.menu a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.submenu {
+    max-width: 150px;
+    width: 100%;
+    background: #F00;
+    margin-left: -8px;
+    position: absolute;
+    display: none;
+}
+
+.submenu li:hover {
+    background: #C00;
+    max-width: 134px;   
+    width: 100%;
+}
+
+.submenuitem {
+    display: inline-block;
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+}
