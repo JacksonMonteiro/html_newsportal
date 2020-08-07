@@ -3,14 +3,51 @@
     padding: 0;
 }
 
-.topo {
+body {
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.top {
     height: 30px;
     background-color: #333;
 }
 
-.topoint {
+.intop {
     width: 100%;
     max-width: 1040px;
     height: 30px;
     margin: auto;
+}
+
+.topleft {
+    width: 50%;
+    height: 30px;
+    float: left;
+}
+
+.topleft ul {
+    list-style:none;
+}
+
+.topleft li {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 8px;
+}
+
+.topleft li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.topleft li a:hover {
+    color: #00FFFF;
+}
+
+.topright {
+    width: 50%;
+    height: 30px;
+    float: right;
 }
