@@ -5,12 +5,13 @@
 
 body {
     font-family: Arial;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .top {
     height: 30px;
     background-color: #333;
+    color: #FFF;
 }
 
 .intop {
@@ -48,6 +49,27 @@ body {
 
 .topright {
     width: 50%;
-    height: 30px;
+    height: 28px;
     float: right;
+    margin-top: 2px;
+}
+
+.topright a {
+    float: right;
+    margin: 0 2px;
+}
+
+.topright input {
+    float: right;
+    margin-right: 2px;
+}
+
+.topright input[type="image"] {
+    outline: none;
+}
+
+.searchbox {
+    width: 100px;
+    height: 24px;
+    outline: 0;
 }
