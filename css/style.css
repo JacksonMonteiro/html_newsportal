@@ -28,7 +28,7 @@ body {
 }
 
 .topleft ul {
-    list-style:none;
+    list-style: none;
 }
 
 .topleft li {
@@ -89,12 +89,12 @@ body {
 .logo {
     width: 230px;
     height: 95px;
-    float: left; 
+    float: left;
 }
 
 .logo h1 {
     color: #F00;
-    font-family: serif; 
+    font-family: serif;
     font-size: 42px;
     line-height: 95px;
     -webkit-text-stroke-width: 1px;
@@ -104,7 +104,7 @@ body {
 .top2 .banner {
     width: 650px;
     height: 80px;
-    float: right; 
+    float: right;
     margin: 7.5px 0;
     background: linear-gradient(to right, #F00, #C00);
 }
@@ -164,7 +164,7 @@ body {
 
 .submenu li:hover {
     background: #C00;
-    max-width: 134px;   
+    max-width: 134px;
     width: 100%;
 }
 
@@ -190,7 +190,7 @@ body {
     height: 28px;
     background: #FFF;
     border: 1px solid #CCC;
-    margin-top: 10px; 
+    margin-top: 10px;
 }
 
 .ultnoticiastitulo {
@@ -212,7 +212,7 @@ body {
 }
 
 .incontainer {
-    width: 100%; 
+    width: 100%;
     max-width: 1040px;
     margin: auto;
     background: #CCC;
@@ -227,4 +227,37 @@ body {
 .leftside {
     float: left;
     width: 753px;
+}
+
+.widget {
+    background: #FFF;
+    border: 1px solid #CCC;
+    margin-bottom: 10px;
+}
+
+.widget_titulo {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #CCC;
+    background: #DDD;
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+.widget_conteudo {
+    text-align: center;
+    padding: 5px 0;
+}
+
+.noticia_item {
+    font-size: 14px;
+    margin: 0 10px;
+    padding: 10px 0;
+    text-align: justify;
+    border-bottom: 1px solid #CCC;
+}
+
+.noticia_item a {
+    text-decoration: none;
+    color: #000;
 }
