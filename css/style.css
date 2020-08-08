@@ -174,3 +174,57 @@ body {
     height: 30px;
     line-height: 30px;
 }
+
+.ultimasnoticias {
+    height: 40px;
+}
+
+.inultimasnoticias {
+    width: 100%;
+    max-width: 1040px;
+    height: 40px;
+    margin: auto;
+}
+
+.ultnoticiasarea {
+    height: 28px;
+    background: #FFF;
+    border: 1px solid #CCC;
+    margin-top: 10px; 
+}
+
+.ultnoticiastitulo {
+    background: #F00;
+    color: #FFF;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.ultnoticiasnoticia {
+    color: #000;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    padding: 0 7px;
+}
+
+.incontainer {
+    width: 100%; 
+    max-width: 1040px;
+    margin: auto;
+    background: #CCC;
+}
+
+.rightside {
+    width: 275px;
+    float: right;
+    margin-left: 12px;
+}
+
+.leftside {
+    float: left;
+    width: 753px;
+}
