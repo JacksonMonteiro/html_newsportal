@@ -229,6 +229,24 @@ body {
     width: 753px;
 }
 
+.slideshow {
+    height: 335px;
+    background: #CCC;
+    overflow: hidden;
+}
+
+.slideshowarea {
+    height: 335px;
+}
+
+.slide {
+    height: 335px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .widget {
     background: #FFF;
     border: 1px solid #CCC;
