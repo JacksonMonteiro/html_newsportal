@@ -312,3 +312,66 @@ body {
     text-decoration: none;
     color: #000;
 }
+
+.noticia_area1 {
+    width: 430px;
+    height: 403px;
+    float: left;
+}
+
+.noticia_area2 {
+    width: 320px;
+    height: 403px;
+    float: left;
+}
+
+.noticia_item {
+    text-align: left;
+    height: 88px;
+}
+
+.noticia_img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #CCC;
+    padding: 3px;
+    margin-right: 12px;
+    float:left;
+}
+
+.noticia_titulo {
+    margin: 7px 6px 7px 0;
+    font-size: 16px;
+    width: 226px;
+}
+
+.noticia_info {
+    width: 226px;
+    font-size: 12px;
+    margin-left: 6px;
+    color: #999;
+}
+
+.noticiabig {
+    margin: 0 0 0 10px;
+}
+
+.noticiabig .noticia_img {
+    width: 384px;
+    height: 222px;
+}
+
+.noticiabig .noticia_img img {
+    width: 384px;
+    height: 222px;
+}
+
+.noticiabig .noticia_titulo {
+    font-size: 24px;
+    width: 384px;
+}
+
+.noticiabig .noticia_info {
+    font-size: 14px;
+    width: 384px;
+}
