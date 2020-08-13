@@ -153,6 +153,10 @@ body {
     text-decoration: none;
 }
 
+.menumobile {
+    display: none;
+}
+
 .submenu {
     max-width: 150px;
     width: 100%;
@@ -389,6 +393,14 @@ body {
         max-width: 890px;
     }
 
+    .menumobile {
+        display: none;
+    }
+
+    #menu {
+        display: block !important;
+    }
+
     .leftside {
         max-width: 600px;
     }
@@ -423,6 +435,14 @@ body {
     .inultimasnoticias,
     .incontainer {
         max-width: 768px;
+    }
+
+    .menumobile {
+        display: none;
+    }
+
+    #menu {
+        display: block !important;
     }
 
     .top2 .banner {
@@ -483,14 +503,29 @@ body {
         width: 100%;
     }
 
-    .inmenu {
-        display: none;
+    .inmenu ul {
+        position: absolute;
+        background: #F00;
+        z-index: 1;
+        display:none;
+    }
+
+    .inmenu ul li {
+        float: none;
+    }
+
+    .menumobile {
+        display: block;
     }
 
     .ultimasnoticias {
         display: none;
     }
 
+    .submenu {
+        position: static;
+        display: block;
+    }
 
     .top2 .banner {
         display: none;
